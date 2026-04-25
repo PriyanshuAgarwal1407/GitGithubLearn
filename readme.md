@@ -1,4 +1,4 @@
-## Welcome to Git and Github Learning
+## Hello Git and Github, lets learn together
 
-- This is coming from krishna
+- Yo Priyanshu Here!
 - I'm adding this from 'feature-branch'
