@@ -1,98 +1,68 @@
-# Learning Git & GitHub
+# 🚀 Learning Git & GitHub
 
 > *"If you want to go fast, go alone. If you want to go far, go together."*
 
-Welcome to this journey of mastering Git and GitHub! This repository is a practical playground where we'll explore version control concepts from the ground up.
+Welcome to **GitGithubLearn**! This repository is a comprehensive, practical, hands-on playground designed to help you master version control and team collaboration with **Git** and **GitHub** from the ground up.
 
 ---
 
 ## 🎯 Objectives
-By the end of this course, you will be able to:
-- 📂 Manage code versions with **Git**.
-- ☁️ Host and collaborate on code using **GitHub**.
-- 🔄 Master branching, merging, and pull requests.
-- 🤝 Work effectively in a team environment.
+By completing this learning course, you will:
+- 📂 **Master Git Core**: Understand the working directory, staging area, commit graphs, and local workflows.
+- 🌿 **Branch & Merge**: Create branches, merge strategies (fast-forward, 3-way), and resolve merge conflicts with ease.
+- ☁️ **Collaborate on GitHub**: Manage remotes (`origin`), push/pull branches, open Pull Requests, and review code.
+- ⚡ **Advanced Git**: Work with `stash`, `rebase`, `cherry-pick`, `reset`, and `revert`.
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-Ensure you have the following installed:
-- [Git](https://git-scm.com/downloads)
+Ensure you have Git installed on your system:
+- [Download Git](https://git-scm.com/downloads)
 
-### Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/learning-git-github.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd learning-git-github
-   ```
+Check your installation:
+```bash
+git --version
+```
 
----
-
-## 📖 Weekly Modules
-
-### Week 1: The Basics
-- Introduction to Version Control
-- Basic Git Commands (`init`, `add`, `commit`)
-- Understanding `git status`
-- The Staging Area
-
-### Week 2: Branching & Merging
-- The Power of Branches
-- Creating and Switching Branches (`branch`, `checkout`)
-- Merging Code (`merge`)
-- Resolving Conflicts
-
-### Week 3: GitHub Collaboration
-- Setting up GitHub
-- Creating a Remote Repository
-- Pushing and Pulling
-- The Pull Request Workflow
-
-### Week 4: Advanced Techniques
-- Rebasing
-- Git Cherry-pick
-- Interactive Rebase
-- Git Hooks
+### Clone this Repository
+```bash
+git clone https://github.com/PriyanshuAgarwal1407/GitGithubLearn.git
+cd GitGithubLearn
+```
 
 ---
 
-## 🛠️ Practice Exercises
-Each week will have practical exercises in the `exercises/` folder.
-- **Week 1**: [Exercise 1.1](./exercises/week-1/README.md)
-- **Week 2**: *Coming soon*
-- **Week 3**: *Coming soon*
+## 📖 Weekly Course Modules & Exercises
+
+| Week | Module | Topics Covered | Exercises |
+| :---: | :--- | :--- | :---: |
+| **01** | **[The Basics & Fundamentals](./exercises/week-1/README.md)** | `init`, `status`, `add`, `commit`, `.gitignore`, `git log` | [Start Week 1](./exercises/week-1/README.md) |
+| **02** | **[Branching & Merging](./exercises/week-2/README.md)** | `branch`, `switch`, `checkout`, 3-way merge, conflict resolution | [Start Week 2](./exercises/week-2/README.md) |
+| **03** | **[GitHub Collaboration](./exercises/week-3/README.md)** | `remote`, `push`, `pull`, `fetch`, Pull Requests (PRs), Forking | [Start Week 3](./exercises/week-3/README.md) |
+| **04** | **[Advanced Git Mastery](./exercises/week-4/README.md)** | `stash`, `rebase`, `cherry-pick`, `reset` vs `revert`, `blame` | [Start Week 4](./exercises/week-4/README.md) |
+
+---
+
+## 📚 In-Depth Handbook
+For a comprehensive deep-dive into every Git topic and workflow, explore the complete guide:
+- 📖 **[Git & GitHub Comprehensive Handbook](./git-github-handbook.md)**
 
 ---
 
 ## 🤝 Contributing
-We welcome contributions! To contribute:
-1. Fork the repository.
-2. Create a feature branch.
-3. Make your changes.
-4. Submit a Pull Request.
-
----
-
-## 📚 Resources
-- [Pro Git Book](https://git-scm.com/book/en/v2)
-- [GitHub Docs](https://docs.github.com/)
-- [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials)
+Contributions, suggestions, and corrections are welcome!
+1. Fork the repository
+2. Create your feature branch (`git switch -c feature/cool-exercise`)
+3. Commit your changes (`git commit -m "feat: add cool exercise"`)
+4. Push to the branch (`git push origin feature/cool-exercise`)
+5. Open a Pull Request
 
 ---
 
 ## 📝 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-- [The Git Community](https://git-scm.com/)
-- [GitHub](https://github.com/)
+This project is open-source and licensed under the [MIT License](LICENSE).
 
 ---
 
